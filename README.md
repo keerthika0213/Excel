@@ -53,13 +53,13 @@ Project Workflow
 7. **Dashboard Assembly** — Combined all visuals into a single dark-themed dashboard with KPI cards and slicers.
 8. **Testing & Finalization** — Verified slicer interactivity and KPI accuracy before finalizing.
 
-## 🖥️ Dashboard Preview
+Dashboard Preview
 
 ![Dashboard Overview](Images/dashboard_overview.png)
 
 *Interactive Excel dashboard — filterable by Department, Job Title, Gender, Risk Band, and Performance Score.*
 
-## 📌 Key KPIs
+Key KPIs
 
 | Metric | Value |
 |---|---|
@@ -69,7 +69,7 @@ Project Workflow
 | Average Attendance Rate | **97.30%** |
 | Average Sick Days | **7.02 days** |
 
-## 💡 Key Insights
+Key Insights
 
 1. **Attendance rate is remarkably consistent across departments** (98.63%–98.67%), meaning attendance alone is not a differentiator of department performance — the gaps lie elsewhere.
 2. **Performance scores are also tightly clustered** (2.98–3.01 across departments), with Marketing and Operations scoring marginally highest (3.01) and Engineering, IT, and Legal marginally lowest (2.98).
@@ -84,7 +84,7 @@ Project Workflow
 
 > 💬 *Takeaway for HR:* Because attendance and risk band show only a weak relationship with performance in this dataset, HR strategy should look beyond attendance monitoring alone — e.g., training hours, workload (overtime/projects handled), and engagement/satisfaction scores — to meaningfully improve productivity.
 
-## 🧩 Excel Skills Demonstrated
+Excel Skills Demonstrated
 
 - Power Query for ETL (Extract, Transform, Load)
 - Complex Excel formulas (attendance rate calculation, array formulas)
@@ -93,40 +93,7 @@ Project Workflow
 - Dashboard design principles (KPI cards, consistent theming, layout hierarchy)
 - Working with large datasets (100K rows) efficiently in Excel
 
-## 📂 Repository Structure
-
-```
-Employee-Attendance-vs-Productivity-Analysis/
-│
-├── README.md                                        # Project documentation (this file)
-│
-├── Dashboard/
-│   └── Employee_Attendance_Productivity_Dashboard.xlsx   # Full Excel workbook (raw data + pivots + dashboard)
-│
-├── Documentation/
-│   ├── Project_Report.docx                          # Detailed project report (abstract, methodology, conclusion)
-│   └── Project_Presentation.pptx                     # Slide deck summary of the project
-│
-└── Images/
-    └── dashboard_overview.png                        # Dashboard screenshot for quick preview
-```
-
-## 🚀 How to Use This Project
-
-1. Clone or download this repository.
-2. Open `Dashboard/Employee_Attendance_Productivity_Dashboard.xlsx` in Excel (2016 or later, Power Query support required).
-3. Use the slicers on the right (Department, Gender, Job Title, Risk Band, Performance Score) to explore the data interactively.
-4. Refer to `Documentation/Project_Report.docx` for the full write-up, or `Project_Presentation.pptx` for a quick walkthrough.
-
-## 🔮 Future Improvements
-
-- Rebuild the dashboard in **Power BI** for richer interactivity and web publishing.
-- Add **real-time data refresh** via Power Query connections.
-- Apply **predictive analytics / ML** to forecast attendance risk and its downstream productivity impact.
-- Introduce **drill-through pages** for employee-level root-cause analysis.
-- Design a **mobile-friendly** version of the dashboard.
-
-## 👩‍💻 Author
+Author
 
 **Kamatchi Keerthika**
 Data Analyst | SQL • Excel • Power BI • Tableau • Python
